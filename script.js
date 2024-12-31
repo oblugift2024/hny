@@ -35,6 +35,7 @@ function init() {
     canvas.style.position = 'fixed';
     canvas.style.top = '0';
     canvas.style.left = '0';
+    canvas.style.zIndex = '9999';
     canvas.style.pointerEvents = 'none'; // Optional, prevents canvas from blocking interactions
     ctx = canvas.getContext('2d');
 }
