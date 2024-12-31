@@ -6,9 +6,3 @@ body, html {
     overflow-x: hidden;
     margin: 0 !important;
 }
-
-canvas {
-    position: absolute;
-    top: 0;
-    left: 0;
-}
